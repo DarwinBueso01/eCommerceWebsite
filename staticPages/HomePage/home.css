@@ -1,0 +1,264 @@
+/* General */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+/* Navbar */
+
+#navbar{
+    background: #053031;
+    color: white;
+    overflow: auto;
+
+}
+
+#navbar h1{
+    margin-top: 18px;
+    float: left;
+    font-family: 'Parisienne', cursive;
+}
+
+#navbar li{
+    display: inline-block;
+    float: right;
+    margin: 20px;
+}
+
+#navbar li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;   
+}
+
+.container1{
+    margin: auto;
+    max-width: 1400px;
+    overflow: auto;
+    font-size: 18px;
+}
+
+#navbar ul li a:hover{
+    background: rgba(5, 8, 9, 0.8);
+    padding: 20px 10px;
+    opacity: 0.7;
+    transition: 0.7s;   
+}
+
+/* Hamburguer Menu */
+
+
+/* content */
+
+.historyTittle{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#iconsContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.fas{
+    color: white;
+    font-size: 50px;
+    background: darkslategray;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/* Information Part 1 */
+
+#homeInfo{
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    background: darkslategray; 
+    color: white;
+    border-bottom: solid black;
+}
+
+.img1{
+    background: url('../img2/DolphinTraining.jpg') no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 450px;
+    float: left;
+    margin: 30px;
+}
+
+.infoContainer{
+    width: 40%;
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+}
+
+/* Information Part 2 */
+
+#homeInfo2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 30px 30px;
+    background: #053031; 
+    color: white;
+}
+
+.img2{
+    background: url('../img2/dolphinJumping.jpeg') no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin: 30px 50px;
+}
+
+.infoContainer2{
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-top: 100px;
+}
+
+/* Button */
+
+.btn{
+    background: lightseagreen;
+    padding: 18px 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.btn:hover{
+    background: black;
+}
+
+/* Decoration Images */
+
+#decorImgContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.decorImg1{
+    background: url('../img2/cleaning1.jpeg');
+    background-size: cover;
+    width: 900px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+.decorImg2{
+    background: url('../img2/cleaning2.jpeg');
+    background-size: cover; 
+    width: 900px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+.decorImg3{
+    background: url('../img2/cleaning3.jpeg');
+    background-size: cover;
+    width: 900px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+/* Arrow Down */
+
+
+
+/* Footer */
+
+#footer{
+    background: #053031;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+/* Social Media Links */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: lightseagreen;
+  }
+  
+  
+  .fa-twitter {
+    color: lightseagreen;
+  }
+
+  .fa-youtube {
+    color: lightseagreen;
+  }
+  
+  .fa-instagram {
+    color: lightseagreen;
+  }
+
+  /* Media Queries */
+
+@media screen and (max-width: 790px){
+    #decorImgContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 40px;
+        width: 100%;
+        height: auto;
+        
+    } 
+}
+
+@media screen and (max-width: 790px){
+    .decorImg1, .decorImg2, .decorImg3{
+        width: 650px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 790px){
+    #slideShow{
+        width: 780px; 
+        height: auto; 
+        margin: auto; 
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+}

@@ -1,0 +1,158 @@
+/* General */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+/* Products Styling */
+
+.productSection{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+}
+
+.productSection .product1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.productSection .product1 .productImage{
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    border: solid #053031;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.productSection .product1 .productInfo-div{
+    width: 300px;
+    border: solid #053031;
+    height: 300px;
+    background:  #4a8582;
+    color: white;
+    box-shadow: 10px 10px 10px #333;
+}
+
+.productSection .product1 .productInfo-div .info{
+    margin-top: 20%;
+}
+
+.productImg{
+    width: 220px;
+    height: 215px;
+}
+
+.tittle{
+    text-shadow: 5px 5px 5px #053031;  
+}
+
+.price{
+    color: #053031;
+    
+}
+
+.shipping{
+    text-shadow: 5px 5px 5px #053031;
+}
+
+.productDescription{
+    color: black;
+}
+
+
+.checked {
+    color: orange;
+  }
+
+.info i{
+    font-size: 15px;
+    text-align: center;
+    width: 8px;
+    padding: 10px;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 425px){
+    .productSection{
+        display: grid;
+        grid-template-columns: auto;
+        width: 50%;
+        margin-left: 140px;
+        padding-right: 50px;
+    }
+
+
+
+    .productSection .product1 .productImage{
+        width: 170px;
+        height: 200px;
+        padding: 2px 2px;
+        border: solid #053031;
+    }
+    
+    .productSection .product1 .productInfo-div{
+        width: 170px;
+        border: solid #053031;
+        height: 200px;
+        background:  #4a8582;
+        color: white;
+    }
+
+    .tittle{
+        font-size: 15px;
+    }
+
+    .shipping{
+        font-size: 10px;
+    }
+
+    .price{
+        font-size: 13px;
+    }
+
+    .productDescription{
+        font-size: 10px;
+    }
+
+    .productImg{ 
+        width: 140px;
+        height: 130px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .productSection{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 62%;
+        margin: 20px 20px 20px 20px;
+        /* margin-left: 120px; */
+        padding-left: 30px;
+        justify-content: center;
+    }
+    .productSection .product1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+        margin: 20px -150px 0 150px;
+    }
+}
+
+
+

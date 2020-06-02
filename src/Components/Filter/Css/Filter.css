@@ -1,0 +1,39 @@
+/* Filter */
+
+.filterSection{
+    display: flex;
+    flex-direction: row;
+    background: #4a8582;
+    width: 225px;
+    margin-left: 350px;
+}
+
+.gridfilter, .gridpricefilter{
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    font-size: 13px;
+    text-decoration: none;
+    border: solid black;
+}
+
+@media screen and (max-width: 425px){
+    .filterSection{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .filterSection{
+        margin-left: 275px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .filterSection{
+        margin-left: 390px;
+    }
+}
+
+
+

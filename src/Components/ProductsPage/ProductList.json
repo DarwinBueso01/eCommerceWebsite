@@ -1,0 +1,136 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "img": "../img/dolphin5.jpg",
+            "alt": "Dolphin Painting",
+            "title": "Dolphin Painting",
+            "price": "$32.99",
+            "shipping": "3-day Shipping",
+            "description": "Two Jumping Dolphins at Sunset - Canvas Art Wall Decor - 16' x 24'",
+            "type": "Home",
+            "cost": "medium"
+        },
+        {
+            "id": 2,
+            "img": "../img/lamp1.jpg",
+            "alt": "Modern Lamp",
+            "title": "Modern Lamp",
+            "price": "$10.90",
+            "shipping": "3-day Shipping",
+            "description": "3D Illusion Dolphin LED Night Light Lamp,7 Colors Gradual Changing Touch Switch",
+            "type": "Home",
+            "cost": "low"
+        },
+        {
+            "id": 3,
+            "img": "../img/T-shirt1.jpg",
+            "alt": "Fantasy World T-Shirt",
+            "title": "Fantasy World T-Shirt",
+            "price": "$29.99",
+            "shipping": "10-day Shipping",
+            "description": "Enter the dolphin fantasy world with our 3D ALL OVER PRINTED DOLPHIN T SHIRT",
+            "type": "Clothing",
+            "cost": "medium"
+        },
+        {
+            "id": 4,
+            "img": "../img/T-shirt2.jpg",
+            "alt": "Dolphin World T-Shirt",
+            "title": "Dolphin World T-Shirt",
+            "price": "$29.99",
+            "shipping": "10-day Shipping",
+            "description": "Become one of this creatures wearing our 3D dolphin Design T-shirt.",
+            "type": "Clothing",
+            "cost": "medium"
+        },
+        {
+            "id": 5,
+            "img": "../img/necklace1.jpg",
+            "alt": "Dolphin Necklace",
+            "title": "Dolphin Necklace",
+            "price": "$29.99",
+            "shipping": "3-day Shipping",
+            "description": "Fancime Christmas Gift Ocean Collection 925 Sterling Silver Cute Dolphin",
+            "type": "Jewelry",
+            "cost": "medium"
+        },
+        {
+            "id": 6,
+            "img": "../img/necklace2.jpg",
+            "alt": "Crystal Necklace",
+            "title": "Crystal Necklace",
+            "price": "$182.04",
+            "shipping": "3-day Shipping",
+            "description": "Dolphin Necklace Adorned With White Swarovski® Crystals",
+            "type": "Jewelry",
+            "cost": "high"
+        },
+        {
+            "id": 7,
+            "img": "../img/necklace3.jpg",
+            "alt": "Dolphin Necklace",
+            "title": "Capri Dolphin Necklace",
+            "price": "$119.99",
+            "shipping": "3-day Shipping",
+            "description": "Natural Shell | Mother of Pearl. Capri inlay with high polish finish.",
+            "type": "Jewelry",
+            "cost": "high"
+        },
+        {
+            "id": 8,
+            "img": "../img/dolphinEarrings.jpg",
+            "alt": "Earrings",
+            "title": "Earrings",
+            "price": "$159.99",
+            "shipping": "3-day Shipping",
+            "description": "Jumping Dolphin Dangle Earrings in High Polish 14k Gold",
+            "type": "Jewelry",
+            "cost": "high"
+        },
+        {
+            "id": 9,
+            "img": "../img/dolphinTable.jpg",
+            "alt": "Table",
+            "title": "Table | Waves Design",
+            "price": "$185.85",
+            "shipping": "2-day Shipping",
+            "description": "Playful Dolphins Marine Life Glass Top Accent Table.",
+            "type": "Home",
+            "cost": "high"
+        },
+        {
+            "id": 10,
+            "img": "../img/homeDecor.jpeg",
+            "alt": "Figurine",
+            "title": "Home Decor Figurine",
+            "price": "$22.02",
+            "shipping": "3-day Shipping",
+            "description": "Fashion Luxury Elegant Wedding Gifts Home Modern Wedding Decoration Couple Simple Ceramic Desktop Gift.",
+            "type": "Home",
+            "cost": "medium"
+        },
+        {
+            "id": 11,
+            "img": "../img/cup.jpg",
+            "alt": "Cup",
+            "title": "Dolphin Party Cup",
+            "price": "$38.41",
+            "shipping": "3-day Shipping",
+            "description": "DOLPHIN CERAMIC MUG COFFEE TEA MILK CUP SPOON SAUCER SET OFFICE HOME PARTY.",
+            "type": "Home",
+            "cost": "medium"
+        },
+        {
+            "id": 12,
+            "img": "../img/dolphinCanvas.jpg",
+            "alt": "Canvas Painting",
+            "title": "Dolphin Canvas Painting",
+            "price": "$70.00",
+            "shipping": "3-day Shipping",
+            "description": "Bring your artwork to life with the texture and depth of a stretched canvas print.",
+            "type": "Home",
+            "cost": "medium"
+        }
+    ]
+}

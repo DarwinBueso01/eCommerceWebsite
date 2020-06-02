@@ -1,0 +1,50 @@
+/* Navbar */
+
+#navbar{
+    background: #053031;
+    color: white;
+    overflow: auto;
+
+}
+
+#navbar h1{
+    margin-top: 18px;
+    float: left;
+    font-family: 'Parisienne', cursive;
+}
+
+#navbar li{
+    display: inline-block;
+    float: right;
+    margin: 20px;
+}
+
+
+#navbar li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;   
+}
+
+.container1{
+    margin: auto;
+    max-width: 1400px;
+    overflow: auto;
+    font-size: 18px;
+}
+
+#navbar ul li a:hover{
+    background: rgba(5, 8, 9, 0.8);
+    padding: 20px 10px;
+    opacity: 0.7;
+    transition: 0.7s;  
+}
+
+
+@media screen and (max-width: 425px){
+    #navbar{
+        overflow: auto;
+        padding: 0;
+        
+    }
+}
