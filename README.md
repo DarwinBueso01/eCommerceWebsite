@@ -21,6 +21,16 @@ Each page have a Navigation Bar and Footer with links to social media
 
 ## Get Started
 
+Use Create React App to create a component based application to display your former products page from the first iteration of the project.
+
+Create a JSON file that includes all of the products to be used for display purposes.
+
+Use that JSON file with your products page.
+
+Deploy Application to the cloud using netlify.
+
+
+
 In the project directory, you can run:
 
 ### `npm start`
