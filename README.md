@@ -1,5 +1,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## The Ecommerce Website Include The Following...
+ 
+Home Page (Static): Working slider
+
+Products (React APP): 12 products with a working filter rendered from JSON file
+
+Each product have a title, description, price, and image and it renders from JSON file
+
+Working filter for price and product type
+
+Contact Page (Static): JavaScript form validation
+
+The form includes a place for name, email, and comment.
+
+## Responsiveness
+
+Both tablet and mobile
+Each page have a Navigation Bar and Footer with links to social media
+
 ## Get Started
 
 In the project directory, you can run:
